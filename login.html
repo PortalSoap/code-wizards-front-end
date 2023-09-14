@@ -34,25 +34,36 @@
                 Code Wizards! Faça parte e eleve seu conhecimento.
             </div>
         </div>
-        <div class="login-box">
-            <div class="title">Entre no nosso site!</div>
-            <div class="content">
-                <form action="#" method="POST">
-                    <label for="email-box">Email</label>
-                    <div class="input-container">
-                        <input type="email" name="email-box" placeholder="email@gmail.com" required>
+        <div class="login-container">
+            <div class="login-box">
+                <div class="title">Entre no nosso site!</div>
+                <div class="content">
+                    <form action="#" method="POST">
+                        <label for="email-box">Email</label>
+                        <div class="input-container">
+                            <input type="email" name="email-box" placeholder="email@gmail.com" required>
+                        </div>
+                        <label for="password">Senha</label>
+                        <div class="input-container">
+                            <input type="password" name="password-box" placeholder="Digite aqui..." required>
+                        </div>
+                        <input class="btn" type="submit" name="submit-btn" value="Entrar">
+                    </form>
+                    <div class="signup-banner">
+                        Não possui conta? <a href="#">Cadastre-se</a>
                     </div>
-                    <label for="password">Senha</label>
-                    <div class="input-container">
-                        <input type="password" name="password-box" placeholder="Digite aqui..." required>
-                    </div>
-                    <input class="btn" type="submit" name="submit-btn" value="Entrar">
-                </form>
-                <div class="signup-banner">
-                    Não possui conta? <a href="#">Cadastre-se</a>
                 </div>
             </div>
-        </div>        
+            <div class="divisor">
+                <div class="line"></div>
+                <div class="text">Ou</div>
+                <div class="line"></div>
+            </div>
+            <button class="google-btn">
+                <img src="/assets/images/google-g-logo.png"/>
+                <b>Continuar com o Google</b>
+            </button>
+        </div>
     </main>
 </body>
 </html>

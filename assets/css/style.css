@@ -49,7 +49,6 @@ header nav {
     width: 120px;
     height: 105px;
     user-select: none;
-    
 }
 
 a {
@@ -73,7 +72,7 @@ a {
 }
 
 main {
-    height: 60vh;
+    height: 70vh;
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -83,6 +82,7 @@ main {
 .info-box {
     max-width: 330px;
     color: #540000;
+    margin-bottom: 100px;
 }
 
 .info-box h1 {
@@ -93,9 +93,14 @@ main {
     font-size: 1.2rem;
 }
 
+.login-container {
+    text-align: center;
+}
+
 .login-box {
     min-width: 600px;
     background-color: #ffffff;
+    text-align: left;
 }
 
 .login-box .title {
@@ -142,4 +147,50 @@ input {
 .signup-banner {
     width: 100%;
     text-align: right;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.divisor .line {
+    width: 50px;
+    height: 1px;
+    border: 1px solid #999999;
+}
+
+.divisor .text {
+    color: #999999;
+    user-select: none;
+}
+
+.google-btn {
+    width: 220px;
+    height: 40px;
+    padding: 10px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fcfcfc;
+    border: none;
+    box-shadow: 0px 3px 4px 0px #cccccc;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.40s ease;
+    margin: auto;
+}
+
+.google-btn:hover {
+    box-shadow: 0px 3px 8px 0px #bbbbbb;
+    user-select: none;
+}
+
+.google-btn img {
+    width: 20px;
+    height: 20px;
 }
