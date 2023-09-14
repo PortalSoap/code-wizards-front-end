@@ -16,7 +16,7 @@ body {
     width: 100vw;
 }
 
-#login-and-signup {
+.login-and-signup {
     background: url("/assets/images/login-background.png");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
     background-color: #ffffff;
 }
 
-header nav {
+.login-and-signup header nav {
     display: flex;
     align-items: center;
     gap: 150px;
@@ -134,6 +134,7 @@ input {
 }
 
 .input-container {
+    height: auto;
     background-color: #eeeeee;
     border: 1px solid #000000;
     border-radius: 20px;
@@ -201,4 +202,38 @@ input {
 .google-btn img {
     width: 20px;
     height: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header nav .container {
+    display: flex;
+}
+
+header nav .container .logo img {
+    width: 95px;
+    height: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+}
+
+header nav ul a {
+    color: #000000;
+    font-weight: 600;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
