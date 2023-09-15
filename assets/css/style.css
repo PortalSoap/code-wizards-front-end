@@ -131,6 +131,7 @@ input {
     border: none;
     outline: none;
     background-color: inherit;
+    width: 100%;
 }
 
 .input-container {
@@ -211,6 +212,8 @@ input {
 
 header nav .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav .container .logo img {
@@ -223,8 +226,9 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     padding: 0px;
+    margin-right: 300px;
 }
 
 header nav ul a {
@@ -236,4 +240,38 @@ header nav ul a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.login-nav-area {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.login-nav-area .btn-option {
+    font-size: inherit;
+    font-weight: 600;
+}
+
+.login-nav-area .btn {
+    padding: 10px 30px;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 84px solid #d9d9d9;
+    border-left: 84px solid transparent;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 84px;
+    padding: 0px 20px 0px 20px;
+    background-color: #d9d9d9;
 }
