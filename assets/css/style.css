@@ -39,6 +39,10 @@ body {
     background-color: #ffffff;
 }
 
+nav {
+    background-color: #ffffff;
+}
+
 .login-and-signup header nav {
     display: flex;
     align-items: center;
@@ -69,14 +73,6 @@ a {
 
 .mb {
     margin-bottom: 10px;
-}
-
-main {
-    height: 70vh;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
 }
 
 .info-box {
@@ -275,4 +271,30 @@ header nav ul a {
     height: 84px;
     padding: 0px 20px 0px 20px;
     background-color: #d9d9d9;
+}
+
+#index-page {
+    height: 90vh;
+    background: url("/assets/images/header-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-box {
+    color: #ffffff;
+    width: 800px;
+    margin: 100px 0px 0px 30px;
+}
+
+.text-box p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+
+@media (width < 1300px) {
+    * {
+        font-size: 14px;
+    }
 }
