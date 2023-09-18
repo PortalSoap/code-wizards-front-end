@@ -206,14 +206,14 @@ input {
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+    width: 1200px;
 }
 
 header nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 header nav .container .logo img {
@@ -228,7 +228,10 @@ header nav ul {
     align-items: center;
     gap: 10px;
     padding: 0px;
-    margin-right: 300px;
+}
+
+header nav li {
+    min-width: 95px;
 }
 
 header nav ul a {
@@ -238,14 +241,12 @@ header nav ul a {
 
 .search-area {
     display: flex;
+    min-width: 300px;
     align-items: center;
     justify-content: center;
 }
 
 .login-nav-area {
-    position: absolute;
-    right: 0;
-    top: 0;
     display: flex;
     align-items: center;
 }
@@ -270,7 +271,7 @@ header nav ul a {
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    width: 270px;
     height: 84px;
     padding: 0px 20px 0px 20px;
     background-color: #d9d9d9;
