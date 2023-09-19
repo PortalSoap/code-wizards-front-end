@@ -75,6 +75,14 @@ a {
     margin-bottom: 10px;
 }
 
+.main-info {
+    height: 70vh;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
 .info-box {
     max-width: 330px;
     color: #540000;
@@ -141,13 +149,22 @@ input {
     box-shadow: 0px 4px 4px 0px #eeeeee;
 }
 
-.btn {
+.btn, .btn-white {
     background-color: #540000;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 20px;
     margin: 10px 0px 10px 0px;
     cursor: pointer;
+    display: inline-block;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #540000;
+    font-weight: 600;
+    border: 3px solid #540000;
+    border-radius: 30px;
 }
 
 .signup-banner {
@@ -207,7 +224,7 @@ input {
 
 header nav .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
 }
@@ -274,9 +291,8 @@ header nav ul a {
 }
 
 #index-page {
-    height: 90vh;
     background: url("/assets/images/header-background.png");
-    background-size: 100%;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -290,11 +306,4 @@ header nav ul a {
 .text-box p {
     margin-top: 30px;
     font-size: 1.2rem;
-}
-
-
-@media (width < 1300px) {
-    * {
-        font-size: 14px;
-    }
 }
