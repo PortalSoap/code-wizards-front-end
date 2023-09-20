@@ -76,17 +76,16 @@ a {
 }
 
 .main-info {
-    height: 70vh;
     display: flex;
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 100px;
 }
 
 .info-box {
     max-width: 330px;
     color: #540000;
-    margin-bottom: 100px;
 }
 
 .info-box h1 {
