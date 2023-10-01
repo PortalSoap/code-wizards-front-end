@@ -309,8 +309,115 @@ header nav ul a {
     font-size: 1.2rem;
 }
 
+.note-flt-button {
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    display: inline-block;
+    padding: 8px;
+    background-color: #540000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
 
-/*cursos style  */
+.note-flt-button:hover {
+    font-size: 1.6rem;
+}
+
+.note-interface {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    right: 80px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+
+.note-list {
+    overflow: auto;
+    max-height: 340px;
+}
+
+.note-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.note-interface .operation {
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.note-interface .operation:hover {
+    font-size: 1.3rem ;
+}
+
+.note-interface .operations {
+    display: flex;
+    gap: 10px;
+}
+
+.note-interface .note {
+    min-height: 60px;
+    width: 100%;
+    padding: 10px;
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.note .note-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.new-note {
+    width: 300px;
+    min-height: 200px;
+    position: absolute;
+    top: 30%;
+    right: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+
+.new-note textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.new-note textarea[name=title] {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.note-btn {
+    font-size: 1rem;
+    color: #ffffff;
+    border:none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* cursos style  */
 .lado {
     display: flex;
     padding: 30px;
